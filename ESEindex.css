@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background-color: #d8c469;
+}
+
+div {
+    margin-top: 15px;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-style {
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: white;
+  }
+
+  .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
